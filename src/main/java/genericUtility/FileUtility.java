@@ -4,11 +4,6 @@ package genericUtility;
 package genricUtility;
 >>>>>>> 85f0ed4f6ef00a107e6b63605d43abd973908c60:src/main/java/genricUtility/FileUtility.java
 
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.IOException;
-import java.util.Properties;
-
 public class FileUtility {
 
 	public String readDataFromPropertyfile(String key) throws IOException {
