@@ -1,11 +1,5 @@
 package genericUtility;
 
-import java.time.LocalDate;
-import java.time.format.DateTimeFormatter;
-import java.util.Map;
-import java.util.Random;
-
-
 public class JavaUtility {
 	Random random = new Random();
 	String randomString = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
@@ -101,6 +95,5 @@ public class JavaUtility {
 		LocalDate date=LocalDate.now();
 		return date.format(DateTimeFormatter.ofPattern(format));
 	}
-	
 
 }
