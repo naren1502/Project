@@ -1,4 +1,4 @@
-package genricUtility;
+package genericUtility;
 
 public interface FrameworkConstants {
 
