@@ -24,6 +24,7 @@
 		</attributes>
 	</classpathentry>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 	<classpathentry excluding="**" kind="src" output="target/test-classes" path="src/test/resources">
 		<attributes>
@@ -39,5 +40,7 @@
 		</attributes>
 	</classpathentry>
 >>>>>>> 225adf092d66a15b475d596831db3aeb3ce57d96
+=======
+>>>>>>> 5f61f74 (Repository Updated)
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
