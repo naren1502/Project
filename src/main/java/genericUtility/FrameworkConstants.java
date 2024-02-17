@@ -1,5 +1,5 @@
 package genericUtility;
 
 public interface FrameworkConstants {
-String excelPath="./src/test/resources";
+String excelPath="C:\\Users\\user\\Downloads\\Frontrol_Test_Data.xlsx";
 }
