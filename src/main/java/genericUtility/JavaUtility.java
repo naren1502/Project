@@ -1,6 +1,7 @@
 package genericUtility;
 
 import java.time.LocalDate;
+import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.Map;
 import java.util.Random;
@@ -96,9 +97,16 @@ public class JavaUtility {
 	 * @param format (Day -dd ,Month -MM,Year -yyyy)
 	 * @return Returns local system date with give format
 	 */
-	public static String getLocalDate(String format) {
+	public  String getLocalDate(String format) {
 		LocalDate date=LocalDate.now();
 		return date.format(DateTimeFormatter.ofPattern(format));
 	}
+	
+	public String getFileName() {
+		LocalDateTime ld=LocalDateTime.now();
+		return ld.toString().replaceAll("[:.-]", "_");
+	}
+	
+	
 
 }
